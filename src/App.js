@@ -1,11 +1,11 @@
 import React from 'react';
-import Room_State from './Room_State';
+import RoomState from './RoomState';
 
 
 function App() {
   return (
    
-      <Room_State />
+      <RoomState />
   );
 }
 

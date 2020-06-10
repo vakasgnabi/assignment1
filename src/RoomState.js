@@ -14,7 +14,7 @@ the temperature by 1 degree when clicked,*/
 import React,{useState} from 'react';
 import './Room_State.css';
 
-function Room_State(){
+function RoomState(){
     let[isLit,setLit]=useState(false);
     let[currTemp,indecTemp]=useState(22);
     const getVal=(evt)=>{
@@ -54,4 +54,4 @@ function Room_State(){
     )
 }
 
-export default Room_State;
+export default RoomState;
