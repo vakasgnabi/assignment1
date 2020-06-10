@@ -35,4 +35,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Deploy surge
-      run: surge ./build vakasreactapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build vakasreactassign.surge.sh --token ${{secrets.SURGE_TOKEN}}
